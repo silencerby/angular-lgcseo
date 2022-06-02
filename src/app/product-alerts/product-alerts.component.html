@@ -1,0 +1,5 @@
+<p *ngIf="product && product.price > 700">
+  <button type="button" [title]="'when price of ' + product.name + ' changes'">
+    Notify Me
+  </button>
+</p>
